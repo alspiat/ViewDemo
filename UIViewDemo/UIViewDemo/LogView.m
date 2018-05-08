@@ -13,9 +13,9 @@
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
+    NSLog(@"initWithFrame started");
     self = [super initWithFrame:frame];
-    
-    NSLog(@"Init View with frame");
+    NSLog(@"initWithFrame finished");
     
     return self;
 }
